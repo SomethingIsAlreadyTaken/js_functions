@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import 'mixins.scss';
+@import 'normalize';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font: 10px/1.6 'Open Sans', serif;
+	height: 100%;
+}
+
+body {
+	font-size: 1.6rem;
+	color: #333;
+	min-height: 100%;
+}
